@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+
+    <name>x500</name>
+    <version>0.1.0</version>
+    <description>Software for x500 Companion Computer</description>
+
+    <maintainer email="ptrmu@outlook.com">Peter Mullen</maintainer>
+    <license>MIT</license>
+
+    <url type="repository">https://github.com/ptrmu/x500.git</url>
+    <url type="bugtracker">https://github.com/ptrmu/x500/issues</url>
+
+    <author>Peter Mullen</author>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+
+    <test_depend>ament_lint_auto</test_depend>
+
+    <!-- This recursively depends on a set of common linters -->
+    <test_depend>ament_lint_common</test_depend>
+
+    <!-- Ament uses these linters, turn them on/off one by one to debug: -->
+    <!--  <test_depend>ament_cmake_copyright</test_depend>-->
+    <!--  <test_depend>ament_cmake_cppcheck</test_depend>-->
+    <!--  <test_depend>ament_cmake_cpplint</test_depend>-->
+    <!--  <test_depend>ament_cmake_flake8</test_depend>-->
+    <!--  <test_depend>ament_cmake_lint_cmake</test_depend>-->
+    <!--  <test_depend>ament_cmake_pep257</test_depend>-->
+    <!--  <test_depend>ament_cmake_uncrustify</test_depend>-->
+    <!--  <test_depend>ament_cmake_xmllint</test_depend>-->
+
+    <depend>geographic_msgs</depend>
+    <depend>geometry_msgs</depend>
+    <depend>mavros_msgs</depend>
+    <depend>rclcpp</depend>
+    <depend>ros2_shared</depend>
+    <depend>std_srvs</depend>
+    <depend>tf2</depend>
+    <depend>tf2_geometry_msgs</depend>
+    <depend>tf2_ros</depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+
+</package>
